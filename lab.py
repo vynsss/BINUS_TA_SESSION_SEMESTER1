@@ -38,11 +38,13 @@ while x < y:
     x += 1
     print(" " * x + "*" * (y-x+1))
 
+
+
 x = 0
 y = int(input("Input another number:"))
 while x < y:
     x += 1
-    print(" " * (y-x) + "*" * x + "*" * (x-1) + " " * (y-x+1))
+    print(" " * (y-x) + "*" * x + "*" * (x-1))
 
 x = 0
 y = int(input("Input another number:"))
@@ -55,3 +57,16 @@ while x < y:
         print(" " * z + "*" * (y-z) + "*" * (y-z-1))
         if z == y:
             break
+
+
+
+
+
+
+
+
+
+
+
+
+

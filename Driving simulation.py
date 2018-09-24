@@ -21,7 +21,7 @@ if speed > Speed_limit:
 else:
     print("The person did not go over the speed limit.")
 
-distance = int(speed * duration)
+distance = int(accel*time*time)
 if distance == Dist:
     print("The person reached the destination.")
 else:
