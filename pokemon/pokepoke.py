@@ -52,8 +52,8 @@ welcome to poke game:)
 def poke():
     chance = random.randint(0,5)
     if chance == 0:
-        print('''~~~There is a pokemon. (^;^)
-        ''')
+        print('''
+~~~There is a pokemon. (^;^)''')
 
 while True:
     inp = int(input("Your choice: "))
